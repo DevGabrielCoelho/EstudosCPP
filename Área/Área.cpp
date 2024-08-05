@@ -13,6 +13,7 @@ int main() {
 	trapeze = (a + b) * (c / 2);
 	square = pow(b, 2);
 	rectangle = a * b;
+	s();
 	cout << fixed << setprecision(3);
 	cout << "TRIANGULO: " << triangle << "\nCIRCULO: " << circle << "\nTRAPEZIO: " << trapeze << "\nQUADRADO: " << square << "\nRETANGULO: " << rectangle << endl;
 	return 0;
